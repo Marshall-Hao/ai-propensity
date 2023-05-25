@@ -17,8 +17,14 @@ module.exports = {
           light: '#4285F4',
           dark: '#174EA6'
         }
+      },
+      keyframes: {
+        ping: {
+          ' 75%, 100%': { transform: 'scale(1.3)',opacity: '0'}
+        }
       }
     },
+    
   },
   plugins: [],
 }
