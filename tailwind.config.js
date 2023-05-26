@@ -14,7 +14,8 @@ module.exports = {
       },
       colors: {
         gblue: {
-          light: '#4285F4',
+          light: '#E8F0FE',
+          normal: '#4285F4',
           dark: '#174EA6'
         }
       },
@@ -24,7 +25,7 @@ module.exports = {
         }
       }
     },
-    
+
   },
   plugins: [],
 }

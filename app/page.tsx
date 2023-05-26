@@ -1,9 +1,10 @@
 import { SvgIcon, PingDiv } from '@/components/common';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-gblue-light">
-      <div className=" -mt-5 flex flex-col gap-y-12">
+    <main className="flex min-h-screen flex-col items-center bg-gblue-normal">
+      <div className="-mt-5 flex flex-col gap-y-12">
         <PingDiv>
           <SvgIcon href="lipstick"></SvgIcon>
         </PingDiv>
@@ -26,9 +27,11 @@ export default function Home() {
         </p>
       </section>
 
-      <div className="h-48 w-48  rounded-full border-8 border-white px-9 py-8">
-        <SvgIcon animate="animate-pulse" href="right_arrow"></SvgIcon>
-      </div>
+      <Link href="/pages/video">
+        <div className="h-48 w-48 rounded-full border-8 border-white px-9 py-8">
+          <SvgIcon animate="animate-pulse" href="right_arrow"></SvgIcon>
+        </div>
+      </Link>
     </main>
   );
 }

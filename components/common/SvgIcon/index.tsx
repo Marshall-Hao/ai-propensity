@@ -4,11 +4,14 @@ type SvgName =
   | 'user'
   | 'laptop'
   | 'mascara'
+  | 'mascara-copy'
   | 'geo_location'
   | 'traffic_source'
   | 'mirror'
+  | 'mirror-copy'
   | 'session_quality'
   | 'lipstick'
+  | 'lipstick-copy'
   | 'time_spent'
   | 'right_arrow';
 
