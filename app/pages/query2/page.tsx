@@ -1,4 +1,4 @@
-import { SvgIcon, Button, PageHeader } from '@/components/common';
+import { SvgIcon, Button, PageHeader, Card } from '@/components/common';
 import Link from 'next/link';
 
 export default function Page() {
@@ -13,7 +13,14 @@ export default function Page() {
       </Link>
 
       <div className="mt-28">
-        <div className="h-[426px] w-[930px] bg-gblue-normal"></div>
+        {/* <div className="mb-14 flex h-[426px] w-[930px] items-center justify-center rounded-3xl bg-gblue-normal">
+          <div className="text-center">
+            <h1 className="text-5xl">Basic ML</h1>
+            <h2 className="mt-5 text-4xl">Logistic Regression</h2>
+          </div>
+        </div> */}
+        <Card h1={'Basic ML'} h2={'Logistic Regression'}></Card>
+        <Card h1={'Advanced ML'} h2={'AutoML'}></Card>
       </div>
     </main>
   );
