@@ -4,4 +4,5 @@ import BluePingDiv from './BluePingDiv';
 import Button from './Button';
 import PageHeader from './PageHeader';
 import Card from './Card';
-export { SvgIcon, PingDiv, BluePingDiv, Button, PageHeader, Card };
+import Dataset from './Dataset';
+export { SvgIcon, PingDiv, BluePingDiv, Button, PageHeader, Card, Dataset };
