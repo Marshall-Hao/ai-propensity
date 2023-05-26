@@ -1,20 +1,25 @@
+'use client';
 import { SvgIcon, Button, PageHeader } from '@/components/common';
 import Link from 'next/link';
+import MotionMain from '@/components/common/MotionMain';
+import MotionDiv from '@/components/common/MotionDiv';
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-gblue-light">
+    <MotionMain>
       <PageHeader svg={<SvgIcon href="mirror-copy"></SvgIcon>}>
         How would you like to <br /> train your model?
       </PageHeader>
 
-      <Link href="/pages/query2">
-        <Button>Next</Button>
-      </Link>
-
       <div className="mt-28">
         <div className="h-[426px] w-[930px] bg-gblue-normal"></div>
       </div>
-    </main>
+
+      <MotionDiv mode="up" delay={0.4} classNames="justify-self-end mt-auto">
+        <Link href="/pages/query2">
+          <Button>Next</Button>
+        </Link>
+      </MotionDiv>
+    </MotionMain>
   );
 }

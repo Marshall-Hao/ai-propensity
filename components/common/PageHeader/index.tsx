@@ -1,5 +1,6 @@
 import { FC, ReactNode } from 'react';
 import BluePingDiv from '../BluePingDiv';
+import MotionDiv from '../MotionDiv';
 
 type TProps = {
   children: ReactNode;
@@ -9,14 +10,14 @@ type TProps = {
 const PageHeader: FC<TProps> = ({ svg, children }) => {
   return (
     <>
-      <div className="mt-36">
+      <MotionDiv mode="down" delay={0.2} classNames="mx-auto mt-36">
         <BluePingDiv>{svg}</BluePingDiv>
-      </div>
-      <div className="mt-16 text-center">
+      </MotionDiv>
+      <MotionDiv mode="up" delay={0.3} classNames="mt-16 text-center">
         <h1 className="mx-auto max-w-[812px] text-[50px] leading-tight text-gblue-normal">
           {children}
         </h1>
-      </div>
+      </MotionDiv>
     </>
   );
 };
