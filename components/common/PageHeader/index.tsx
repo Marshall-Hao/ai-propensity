@@ -14,7 +14,7 @@ const PageHeader: FC<TProps> = ({ svg, children }) => {
         <BluePingDiv>{svg}</BluePingDiv>
       </MotionDiv>
       <MotionDiv mode="up" delay={0.3} classNames="mt-16 text-center">
-        <h1 className="mx-auto max-w-[812px] text-[50px] leading-tight text-gblue-normal">
+        <h1 className="mx-auto max-w-[863px] text-[50px] leading-tight text-gblue-normal">
           {children}
         </h1>
       </MotionDiv>

@@ -13,7 +13,8 @@ type SvgName =
   | 'lipstick'
   | 'lipstick-copy'
   | 'time_spent'
-  | 'right_arrow';
+  | 'right_arrow'
+  | 'shopping-bag';
 
 type TProps = {
   href: SvgName;

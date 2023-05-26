@@ -14,7 +14,7 @@ export default function Page() {
       </MotionDiv>
 
       <MotionDiv mode="up" delay={0.3} classNames="mb-24 mt-[73px] text-center">
-        <h3 className="text-[40px] text-gblue-normal">Welcome to</h3>
+        <h3 className="text-[40px] text-gblue-normal">Introduction to</h3>
         <h1 className="mx-auto mt-2	max-w-xl text-[68px] leading-tight text-gblue-normal">
           AI Propensity Model Simulator
         </h1>
