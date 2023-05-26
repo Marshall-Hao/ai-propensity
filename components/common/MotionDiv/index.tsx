@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 type TProps = {
   children: ReactNode;
   classNames?: string;
-  mode: 'up' | 'down';
+  mode: 'up' | 'down' | 'left' | 'right';
   delay: number;
 };
 
@@ -18,6 +18,16 @@ const variants = {
     hidden: { opacity: 0, x: 0, y: -10 },
     enter: { opacity: 1, x: 0, y: 0 },
     exit: { opactity: 0, x: 0, y: -10 },
+  },
+  left: {
+    hidden: { opacity: 0, x: -10, y: 0 },
+    enter: { opacity: 1, x: 0, y: 0 },
+    exit: { opactity: 0, x: -10, y: 0 },
+  },
+  right: {
+    hidden: { opacity: 0, x: 10, y: 0 },
+    enter: { opacity: 1, x: 0, y: 0 },
+    exit: { opactity: 0, x: 10, y: 0 },
   },
 };
 
