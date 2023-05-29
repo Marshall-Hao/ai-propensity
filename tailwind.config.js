@@ -19,10 +19,18 @@ module.exports = {
           dark: '#174EA6'
         }
       },
+      animation: {
+        'float': 'float 2s ease-in-out infinite',
+        'float-delay': 'float 2s 1s ease-in-out infinite',
+      },
       keyframes: {
         ping: {
-          ' 75%, 100%': { transform: 'scale(1.3)',opacity: '0'}
+           '75%, 100%': { transform: 'scale(1.3)',opacity: '0'}
         },
+        float: {
+          '0%, 100%': {transform: 'translateY(-2%)'},
+          '50%': {transform: 'translateY(0)'}
+        }
       }
     },
 

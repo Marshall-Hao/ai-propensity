@@ -24,6 +24,7 @@ export default function Page() {
           <Dataset
             mode="left"
             delay={0.2}
+            floatAnimtion="animate-float-delay"
             // eslint-disable-next-line react/no-children-prop
             children={'Session Quality'}
             svg={<SvgIcon href="session_quality"></SvgIcon>}
@@ -32,6 +33,7 @@ export default function Page() {
           <Dataset
             mode="right"
             delay={0.2}
+            floatAnimtion="animate-float-delay"
             // eslint-disable-next-line react/no-children-prop
             children={'Geo Location'}
             svg={<SvgIcon href="geo_location"></SvgIcon>}
@@ -48,6 +50,7 @@ export default function Page() {
           <Dataset
             mode="right"
             delay={0.2}
+            floatAnimtion="animate-float-delay"
             // eslint-disable-next-line react/no-children-prop
             children={'eCommerce Action'}
             svg={<SvgIcon href="shopping-bag"></SvgIcon>}
@@ -56,6 +59,7 @@ export default function Page() {
           <Dataset
             mode="left"
             delay={0.2}
+            floatAnimtion="animate-float-delay"
             // eslint-disable-next-line react/no-children-prop
             children={'User Tenure'}
             svg={<SvgIcon href="user"></SvgIcon>}

@@ -1,7 +1,7 @@
 import { FC, ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import clsx from 'clsx';
-
+import { AnimatePresence } from 'framer-motion';
 const variants = {
   hidden: { opacity: 0, x: 0, y: 20 },
   enter: { opacity: 1, x: 0, y: 0 },
@@ -11,9 +11,14 @@ const variants = {
 type TProps = {
   children: ReactNode;
   bgColor?: string;
+  delay?: number;
 };
 
-const MotionMain: FC<TProps> = ({ children, bgColor = 'bg-gblue-light' }) => {
+const MotionMain: FC<TProps> = ({
+  children,
+  bgColor = 'bg-gblue-light',
+  delay = 0,
+}) => {
   const actualClass = clsx(
     'flex',
     'min-h-screen',
@@ -25,12 +30,14 @@ const MotionMain: FC<TProps> = ({ children, bgColor = 'bg-gblue-light' }) => {
 
   return (
     <motion.main
+      key="main"
       initial="hidden"
       animate="enter"
       exit="exit"
       variants={variants}
-      transition={{ duration: 0.4, type: 'easeInOut' }}
-      className={actualClass}>
+      transition={{ duration: 0.4, type: 'easeInOut', delay }}
+      className={actualClass}
+      exitBeforeEnter>
       {children}
     </motion.main>
   );

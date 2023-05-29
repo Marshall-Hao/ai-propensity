@@ -7,7 +7,7 @@ type TProps = {
 };
 
 const Layout: FC<TProps> = ({ children }) => {
-  return <AnimatePresence mode="wait">{children}</AnimatePresence>;
+  return <>{children}</>;
 };
 
 export default Layout;
