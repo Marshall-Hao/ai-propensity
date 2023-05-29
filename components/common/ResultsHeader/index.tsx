@@ -1,4 +1,5 @@
 import { FC, ReactNode } from 'react';
+import MotionDiv from '../MotionDiv';
 
 type TProps = {
   left_results: ReactNode;
