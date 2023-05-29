@@ -17,7 +17,8 @@ module.exports = {
           light: '#E8F0FE',
           normal: '#4285F4',
           dark: '#174EA6'
-        }
+        },
+        grey: '#9FA1A1'
       },
       animation: {
         'float': 'float 2s ease-in-out infinite',
