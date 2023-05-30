@@ -7,7 +7,7 @@ import MotionDiv from '@/components/common/MotionDiv';
 export default function Page() {
   return (
     <MotionMain>
-      <PageHeader svg={<SvgIcon href="mirror-copy"></SvgIcon>}>
+      <PageHeader svg={<SvgIcon href="mirror" fill="#4285F4"></SvgIcon>}>
         How would you like to <br /> train your model?
       </PageHeader>
 
