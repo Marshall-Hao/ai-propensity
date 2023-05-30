@@ -9,7 +9,7 @@ export default function Page() {
     <MotionMain>
       <MotionDiv mode="down" delay={0.2} classNames="mt-36">
         <BluePingDiv>
-          <SvgIcon href="lipstick-copy"></SvgIcon>
+          <SvgIcon href="lipstick" fill="#4285F4"></SvgIcon>
         </BluePingDiv>
       </MotionDiv>
 

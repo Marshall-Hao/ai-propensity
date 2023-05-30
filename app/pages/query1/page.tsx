@@ -7,7 +7,7 @@ import MotionDiv from '@/components/common/MotionDiv';
 export default function Page() {
   return (
     <MotionMain>
-      <PageHeader svg={<SvgIcon href="mascara-copy"></SvgIcon>}>
+      <PageHeader svg={<SvgIcon href="mascara" fill="#4285F4"></SvgIcon>}>
         Select as many datasets you would <br /> like to train your model with
       </PageHeader>
 
@@ -18,7 +18,7 @@ export default function Page() {
             delay={0.1}
             // eslint-disable-next-line react/no-children-prop
             children={'Traffic Source'}
-            svg={<SvgIcon href="traffic_source"></SvgIcon>}
+            svg="traffic_source"
             col={'col-start-5'}></Dataset>
 
           <Dataset
@@ -27,7 +27,7 @@ export default function Page() {
             floatAnimtion="animate-float-delay"
             // eslint-disable-next-line react/no-children-prop
             children={'Session Quality'}
-            svg={<SvgIcon href="session_quality"></SvgIcon>}
+            svg="session_quality"
             col={'col-start-1'}></Dataset>
 
           <Dataset
@@ -36,7 +36,7 @@ export default function Page() {
             floatAnimtion="animate-float-delay"
             // eslint-disable-next-line react/no-children-prop
             children={'Geo Location'}
-            svg={<SvgIcon href="geo_location"></SvgIcon>}
+            svg="geo_location"
             col={'col-start-9'}></Dataset>
 
           <Dataset
@@ -44,7 +44,7 @@ export default function Page() {
             delay={0.1}
             // eslint-disable-next-line react/no-children-prop
             children={'Time Spent'}
-            svg={<SvgIcon href="time_spent"></SvgIcon>}
+            svg="time_spent"
             col={'col-start-5 -translate-y-[55px]'}></Dataset>
 
           <Dataset
@@ -53,7 +53,7 @@ export default function Page() {
             floatAnimtion="animate-float-delay"
             // eslint-disable-next-line react/no-children-prop
             children={'eCommerce Action'}
-            svg={<SvgIcon href="shopping-bag"></SvgIcon>}
+            svg="shopping-bag"
             col={'col-start-2'}></Dataset>
 
           <Dataset
@@ -62,11 +62,10 @@ export default function Page() {
             floatAnimtion="animate-float-delay"
             // eslint-disable-next-line react/no-children-prop
             children={'User Tenure'}
-            svg={<SvgIcon href="user"></SvgIcon>}
+            svg="user"
             col={'col-start-8'}></Dataset>
         </div>
       </div>
-
       <MotionDiv mode="up" delay={0.4} classNames="justify-self-end mt-auto">
         <Link href="/pages/query2">
           <Button>Next</Button>

@@ -7,7 +7,7 @@ import MotionDiv from '@/components/common/MotionDiv';
 export default function Page() {
   return (
     <MotionMain>
-      <PageHeader svg={<SvgIcon href="lipstick-copy"></SvgIcon>}>
+      <PageHeader svg={<SvgIcon href="lipstick" fill="#4285F4"></SvgIcon>}>
         Thank you for visiting <br /> AI Propensity Model Simulator
       </PageHeader>
 
