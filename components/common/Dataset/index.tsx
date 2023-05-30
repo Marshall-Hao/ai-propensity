@@ -1,6 +1,7 @@
 import { FC, ReactNode, useState } from 'react';
 import MotionDiv from '../MotionDiv';
 import SvgIcon from '../SvgIcon';
+import useAIStore from '@/store';
 
 type TProps = {
   children: ReactNode;
@@ -20,8 +21,18 @@ const Dataset: FC<TProps> = ({
   floatAnimtion = 'animate-float',
 }) => {
   const [active, setActive] = useState(false);
+  const increaseData = useAIStore((state) => state.increaseData);
+  const decreaseData = useAIStore((state) => state.decreaseData);
+
   const handleClick = () => {
-    setActive(!active);
+    setActive((prev) => {
+      if (!prev) {
+        increaseData();
+      } else {
+        decreaseData();
+      }
+      return !prev;
+    });
   };
 
   const classChoices =

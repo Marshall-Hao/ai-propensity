@@ -6,6 +6,7 @@ import 'react-circular-progressbar/dist/styles.css';
 import { easeCircleOut } from 'd3-ease';
 import AnimatedProgressProvider from './AnimatedProgressProvider';
 import Link from 'next/link';
+import useAIStore from '@/store';
 
 type TProps = {
   percentage: number;
@@ -15,7 +16,15 @@ type TProps = {
   cross_svg: ReactNode;
 };
 
-const WhiteCard: FC<TProps> = ({ percentage, p, button_text, button_link, cross_svg }) => {
+const WhiteCard: FC<TProps> = ({
+  percentage,
+  p,
+  button_text,
+  button_link,
+  cross_svg,
+}) => {
+  const tryAgain = useAIStore((state) => state.tryAgain);
+
   return (
     <div className="h-[1180px] w-screen -translate-y-[40px] rounded-t-[48px] bg-white">
       <p className="pt-6 text-center text-3xl text-grey">
@@ -54,7 +63,7 @@ const WhiteCard: FC<TProps> = ({ percentage, p, button_text, button_link, cross_
             </p>
           </div>
           <div className="flex justify-center">
-            <div>
+            <div onClick={tryAgain}>
               <Link href={button_link}>
                 <Button>{button_text}</Button>
               </Link>

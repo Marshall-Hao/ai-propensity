@@ -3,8 +3,11 @@ import { SvgIcon, Button, PageHeader, Dataset } from '@/components/common';
 import Link from 'next/link';
 import MotionMain from '@/components/common/MotionMain';
 import MotionDiv from '@/components/common/MotionDiv';
+import useAIStore from '@/store';
 
 export default function Page() {
+  const num = useAIStore((state) => state.dataSelect);
+
   return (
     <MotionMain>
       <PageHeader svg={<SvgIcon href="mascara" fill="#4285F4"></SvgIcon>}>

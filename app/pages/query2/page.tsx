@@ -3,8 +3,12 @@ import { SvgIcon, Button, PageHeader, Card } from '@/components/common';
 import Link from 'next/link';
 import MotionMain from '@/components/common/MotionMain';
 import MotionDiv from '@/components/common/MotionDiv';
+import useAIStore from '@/store';
 
 export default function Page() {
+  const setBasic = useAIStore((state) => state.setBasic);
+  const setAdvanced = useAIStore((state) => state.setAdvanced);
+
   return (
     <MotionMain>
       <PageHeader svg={<SvgIcon href="mirror" fill="#4285F4"></SvgIcon>}>
@@ -12,14 +16,19 @@ export default function Page() {
       </PageHeader>
 
       <div className="mt-28">
-        <MotionDiv mode="left" delay={0.4}>
+        <MotionDiv mode="left" delay={0.4} onClick={setBasic}>
           <Card
             h1={'Basic ML'}
             h2={'Logistic Regression'}
-            bg="text-gblue-normal border-8 border-gblue-normal "></Card>
+            bg="text-gblue-normal border-8 border-gblue-normal "
+            ml="basic"></Card>
         </MotionDiv>
-        <MotionDiv mode="right" delay={0.4}>
-          <Card h1={'Advanced ML'} h2={'AutoML'} bg="bg-gblue-normal"></Card>
+        <MotionDiv mode="right" delay={0.4} onClick={setAdvanced}>
+          <Card
+            h1={'Advanced ML'}
+            h2={'AutoML'}
+            bg="bg-gblue-normal"
+            ml="advanced"></Card>
         </MotionDiv>
       </div>
 

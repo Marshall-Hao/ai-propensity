@@ -7,6 +7,7 @@ type TProps = {
   mode: 'up' | 'down' | 'left' | 'right';
   delay: number;
   name: string;
+  onClick?: () => undefined;
 };
 
 const variants = {
@@ -38,6 +39,7 @@ const MotionDiv: FC<TProps> = ({
   delay = 0,
   classNames = '',
   name,
+  onClick,
 }) => {
   return (
     <motion.div
@@ -47,7 +49,8 @@ const MotionDiv: FC<TProps> = ({
       exit="exit"
       key={name}
       transition={{ duration: 0.8, type: 'easeInOut', delay }}
-      variants={variants[mode]}>
+      variants={variants[mode]}
+      onClick={() => onClick && onClick()}>
       {children}
     </motion.div>
   );

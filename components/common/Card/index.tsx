@@ -1,16 +1,21 @@
-import { FC, ReactNode } from 'react';
+import { FC, ReactNode, useState } from 'react';
 import clsx from 'clsx';
+import useAIStore from '@/store';
 
 type TProps = {
   h1: ReactNode;
   h2: ReactNode;
   bg: string;
+  ml: string;
 };
 
-const Card: FC<TProps> = ({ h1, h2, bg = '' }) => {
+const Card: FC<TProps> = ({ h1, h2, bg = '', ml }) => {
+  const selMl = useAIStore((state) => state.ml);
+
   const actualClass = clsx(
-    'mb-14 flex h-[426px] w-[930px] items-center justify-center rounded-3xl',
-    bg
+    'mb-14 flex h-[426px] w-[930px] items-center justify-center rounded-3xl transition duration-700 ease-in-out',
+    bg,
+    selMl === ml ? 'scale-110	' : 'scale-100'
   );
 
   return (
