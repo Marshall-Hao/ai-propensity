@@ -5,15 +5,17 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { easeCircleOut } from 'd3-ease';
 import AnimatedProgressProvider from './AnimatedProgressProvider';
+import Link from 'next/link';
 
 type TProps = {
   percentage: number;
   p: string;
   button_text: string;
+  button_link: string;
   cross_svg: ReactNode;
 };
 
-const WhiteCard: FC<TProps> = ({ percentage, p, button_text, cross_svg }) => {
+const WhiteCard: FC<TProps> = ({ percentage, p, button_text, button_link, cross_svg }) => {
   return (
     <div className="h-[1180px] w-screen -translate-y-[40px] rounded-t-[48px] bg-white">
       <p className="pt-6 text-center text-3xl text-grey">
@@ -53,8 +55,12 @@ const WhiteCard: FC<TProps> = ({ percentage, p, button_text, cross_svg }) => {
           </div>
           <div className="flex justify-center">
             <div>
-              <Button>{button_text}</Button>
-              <div className="mx-auto w-11">{cross_svg}</div>
+              <Link href={button_link}>
+                <Button>{button_text}</Button>
+              </Link>
+              <Link href="/pages/last">
+                <div className="mx-auto w-11">{cross_svg}</div>
+              </Link>
             </div>
           </div>
         </div>

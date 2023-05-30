@@ -24,7 +24,7 @@ export default function Page() {
       </div>
 
       <MotionDiv mode="up" delay={0.4} classNames="justify-self-end mt-auto">
-        <Link href="/pages/results1">
+        <Link href="/pages/results">
           <Button>Next</Button>
         </Link>
       </MotionDiv>

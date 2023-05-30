@@ -15,8 +15,7 @@ type SvgName =
   | 'time_spent'
   | 'right_arrow'
   | 'shopping-bag'
-  | 'cross'
-  | 'results1-left';
+  | 'cross';
 
 type TProps = {
   href: SvgName;
