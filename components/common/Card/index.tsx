@@ -15,7 +15,7 @@ const Card: FC<TProps> = ({ h1, h2, bg = '', ml }) => {
   const actualClass = clsx(
     'mb-14 flex h-[426px] w-[930px] items-center justify-center rounded-3xl transition duration-700 ease-in-out',
     bg,
-    selMl === ml ? 'scale-110	' : 'scale-100'
+    selMl === ml ? 'bg-gblue-normal text-white	' : ''
   );
 
   return (
