@@ -27,7 +27,7 @@ export default function Page() {
           <Card
             h1={'Advanced ML'}
             h2={'AutoML'}
-            bg="bg-gblue-normal"
+            bg="text-gblue-normal border-8 border-gblue-normal"
             ml="advanced"></Card>
         </MotionDiv>
       </div>
