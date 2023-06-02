@@ -33,9 +33,9 @@ export default function Home() {
       <AnimatePresence>
         {show && (
           <MotionDiv mode="up" delay={icons.length * 0.1}>
-            <section className="mb-72 mt-24 text-center">
+            <section className="mb-72 mt-24 w-[700px] text-center">
               <h3 className="text-5xl	">Welcome to</h3>
-              <h1 className="mx-auto mb-12 mt-5	max-w-2xl text-7xl leading-tight">
+              <h1 className="mx-auto mb-12 mt-5 text-8xl leading-tight">
                 AI Propensity Model Simulator
               </h1>
               <p className="max-w-2xl text-2xl">

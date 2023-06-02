@@ -1,9 +1,9 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 import Script from 'next/script';
 import Layout from '@/components/Layout';
 
-const inter = Inter({ subsets: ['latin'] });
+const googleSans = localFont({ src: '../public/GoogleSans/Regular.ttf' });
 
 export const metadata = {
   title: 'AI Propensity Model Simulator ',
@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <Script src="//at.alicdn.com/t/c/font_4086257_omc5ca4vpkc.js"></Script>
       <body
-        className={`${inter.className} min-h-screen overflow-hidden bg-blue-300`}>
+        className={`${googleSans.className} min-h-screen overflow-hidden bg-blue-300`}>
         <Layout>{children}</Layout>
       </body>
     </html>
