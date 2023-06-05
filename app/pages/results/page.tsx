@@ -97,31 +97,6 @@ export default function Page() {
                   endTop={575}></Circle>
               </>
             }></ResultsHeader>
-          {/* Final Positions */}
-          {/* <ResultsHeader
-            left_results={
-              <>
-                <Circle left={'left-32'} top={'top-56'}></Circle>
-                <Square left={'left-60'} top={'top-80'}></Square>
-                <Square left={'left-96'} top={'top-72'}></Square>
-                <Square left={'left-[184px]'} top={'top-[410px]'}></Square>
-                <Square left={'left-72'} top={'top-[430px]'}></Square>
-                <Square left={'left-96'} top={'top-[400px]'}></Square>
-                <Circle left={'left-44'} top={'top-[575px]'}></Circle>
-              </>
-            }
-            right_results={
-              <>
-                <Square left={'left-[905px]'} top={'top-60'}></Square>
-                <Circle left={'left-[686px]'} top={'top-80'}></Circle>
-                <Circle left={'left-[808px]'} top={'top-[340px]'}></Circle>
-                <Circle left={'left-[562px]'} top={'top-[420px]'}></Circle>
-                <Circle left={'left-[719px]'} top={'top-[429px]'}></Circle>
-                <Circle left={'left-[881px]'} top={'top-[417px]'}></Circle>
-                <Circle left={'left-[618px]'} top={'top-[540px]'}></Circle>
-                <Circle left={'left-[720px]'} top={'top-[606px]'}></Circle>
-              </>
-            }></ResultsHeader> */}
           <WhiteCard
             percentage={10}
             p={
@@ -144,12 +119,12 @@ export default function Page() {
                   startLeft={340}
                   startTop={265}
                   endLeft={905}
-                  endTop={260}></Square>
+                  endTop={240}></Square>
                 <Square
                   startLeft={242}
                   startTop={320}
-                  endLeft={60}
-                  endTop={280}></Square>
+                  endLeft={240}
+                  endTop={320}></Square>
                 <Square
                   startLeft={360}
                   startTop={352}
@@ -163,7 +138,7 @@ export default function Page() {
                 <Square
                   startLeft={291}
                   startTop={429}
-                  endLeft={44}
+                  endLeft={176}
                   endTop={417}></Square>
                 <Square
                   startLeft={231}
@@ -182,13 +157,13 @@ export default function Page() {
                 <Circle
                   startLeft={776}
                   startTop={252}
-                  endLeft={36}
-                  endTop={156}></Circle>
+                  endLeft={144}
+                  endTop={224}></Circle>
                 <Circle
                   startLeft={686}
                   startTop={319}
                   endLeft={686}
-                  endTop={180}></Circle>
+                  endTop={320}></Circle>
                 <Circle
                   startLeft={808}
                   startTop={341}
@@ -226,32 +201,6 @@ export default function Page() {
                   endTop={196}></Circle>
               </>
             }></ResultsHeader>
-          {/* Final Positions */}
-          {/* <ResultsHeader
-            left_results={
-              <>
-                <Circle left={'left-36'} top={'top-56'}></Circle>
-                <Square left={'left-60'} top={'top-80'}></Square>
-                <Square left={'left-[373px]'} top={'top-[274px]'}></Square>
-                <Square left={'left-[373px]'} top={'top-[373px]'}></Square>
-                <Square left={'left-44'} top={'top-[417px]'}></Square>
-                <Circle left={'left-[179px]'} top={'top-[575px]'}></Circle>
-                <Circle left={'left-[325px]'} top={'top-[575px]'}></Circle>
-              </>
-            }
-            right_results={
-              <>
-                <Square left={'left-[905px]'} top={'top-60'}></Square>
-                <Circle left={'left-[686px]'} top={'top-80'}></Circle>
-                <Circle left={'left-[808px]'} top={'top-[340px]'}></Circle>
-                <Circle left={'left-[562px]'} top={'top-[420px]'}></Circle>
-                <Circle left={'left-[719px]'} top={'top-[429px]'}></Circle>
-                <Circle left={'left-[881px]'} top={'top-[417px]'}></Circle>
-                <Circle left={'left-[618px]'} top={'top-[540px]'}></Circle>
-                <Square left={'left-[763px]'} top={'top-[597px]'}></Square>
-                <Square left={'left-[830px]'} top={'top-[496px]'}></Square>
-              </>
-            }></ResultsHeader> */}
           <WhiteCard
             percentage={25}
             p={
@@ -274,7 +223,7 @@ export default function Page() {
                   startLeft={242}
                   startTop={320}
                   endLeft={905}
-                  endTop={260}></Square>
+                  endTop={240}></Square>
                 <Square
                   startLeft={360}
                   startTop={352}
@@ -283,7 +232,7 @@ export default function Page() {
                 <Square
                   startLeft={178}
                   startTop={410}
-                  endLeft={96}
+                  endLeft={384}
                   endTop={296}></Square>
                 <Square
                   startLeft={291}
@@ -307,13 +256,13 @@ export default function Page() {
                 <Circle
                   startLeft={776}
                   startTop={252}
-                  endLeft={36}
-                  endTop={156}></Circle>
+                  endLeft={144}
+                  endTop={224}></Circle>
                 <Circle
                   startLeft={686}
                   startTop={319}
                   endLeft={686}
-                  endTop={180}></Circle>
+                  endTop={320}></Circle>
                 <Circle
                   startLeft={808}
                   startTop={341}
@@ -337,7 +286,7 @@ export default function Page() {
                 <Circle
                   startLeft={684}
                   startTop={518}
-                  endLeft={256}
+                  endLeft={240}
                   endTop={513}></Circle>
                 <Circle
                   startLeft={765}
@@ -351,31 +300,7 @@ export default function Page() {
                   endTop={575}></Circle>
               </>
             }></ResultsHeader>
-          {/* Final Positions */}
-          {/* <ResultsHeader
-            left_results={
-              <>
-                <Circle left={'left-36'} top={'top-56'}></Circle>
-                <Square left={'left-[165px]'} top={'top-[395px]'}></Square>
-                <Square left={'left-96'} top={'top-[296px]'}></Square>
-                <Circle left={'left-[373px]'} top={'top-[436px]'}></Circle>
-                <Circle left={'left-64'} top={'top-[513px]'}></Circle>
-                <Circle left={'left-44'} top={'top-[575px]'}></Circle>
-                <Circle left={'left-[325px]'} top={'top-[575px]'}></Circle>
-              </>
-            }
-            right_results={
-              <>
-                <Square left={'left-[905px]'} top={'top-60'}></Square>
-                <Circle left={'left-[686px]'} top={'top-80'}></Circle>
-                <Circle left={'left-[808px]'} top={'top-[340px]'}></Circle>
-                <Circle left={'left-[580px]'} top={'top-[475px]'}></Circle>
-                <Circle left={'left-[881px]'} top={'top-[417px]'}></Circle>
-                <Square left={'left-[755px]'} top={'top-[490px]'}></Square>
-                <Square left={'left-[748px]'} top={'top-[597px]'}></Square>
-                <Square left={'left-[844px]'} top={'top-[597px]'}></Square>
-              </>
-            }></ResultsHeader> */}
+
           <WhiteCard
             percentage={45}
             p={
