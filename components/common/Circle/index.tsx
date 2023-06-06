@@ -21,7 +21,7 @@ const Circle: FC<TProps> = ({
 
   return (
     <MotionDiv
-      delay={0.1}
+      delay={0.3}
       duration={1.4}
       classNames={actualClass}
       startLeft={startLeft}

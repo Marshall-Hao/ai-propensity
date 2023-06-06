@@ -21,7 +21,7 @@ const Square: FC<TProps> = ({
 
   return (
     <MotionDiv
-      delay={0.2}
+      delay={0.3}
       duration={1.4}
       classNames={actualClass}
       startLeft={startLeft}

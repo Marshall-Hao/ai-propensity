@@ -17,33 +17,33 @@ export default function Page() {
             left_results={
               <>
                 <Square
-                  startLeft={242}
-                  startTop={320}
+                  startLeft={440}
+                  startTop={220}
                   endLeft={905}
                   endTop={240}></Square>
                 <Square
-                  startLeft={360}
-                  startTop={352}
+                  startLeft={450}
+                  startTop={300}
                   endLeft={240}
                   endTop={320}></Square>
                 <Square
-                  startLeft={178}
-                  startTop={410}
+                  startLeft={350}
+                  startTop={400}
                   endLeft={384}
                   endTop={288}></Square>
                 <Square
-                  startLeft={291}
-                  startTop={429}
+                  startLeft={420}
+                  startTop={430}
                   endLeft={184}
                   endTop={410}></Square>
                 <Square
-                  startLeft={231}
-                  startTop={536}
+                  startLeft={400}
+                  startTop={550}
                   endLeft={288}
                   endTop={430}></Square>
                 <Square
-                  startLeft={343}
-                  startTop={514}
+                  startLeft={460}
+                  startTop={510}
                   endLeft={384}
                   endTop={400}></Square>
               </>
@@ -51,48 +51,48 @@ export default function Page() {
             right_results={
               <>
                 <Circle
-                  startLeft={776}
-                  startTop={252}
+                  startLeft={580}
+                  startTop={250}
                   endLeft={128}
                   endTop={224}></Circle>
                 <Circle
-                  startLeft={686}
-                  startTop={319}
+                  startLeft={600}
+                  startTop={320}
                   endLeft={686}
                   endTop={320}></Circle>
                 <Circle
-                  startLeft={808}
-                  startTop={341}
+                  startLeft={660}
+                  startTop={340}
                   endLeft={808}
                   endTop={340}></Circle>
                 <Circle
-                  startLeft={634}
-                  startTop={418}
+                  startLeft={580}
+                  startTop={410}
                   endLeft={562}
                   endTop={420}></Circle>
                 <Circle
-                  startLeft={757}
-                  startTop={429}
+                  startLeft={610}
+                  startTop={460}
                   endLeft={719}
                   endTop={429}></Circle>
                 <Circle
-                  startLeft={881}
-                  startTop={417}
+                  startLeft={650}
+                  startTop={410}
                   endLeft={881}
                   endTop={417}></Circle>
                 <Circle
-                  startLeft={684}
-                  startTop={518}
+                  startLeft={640}
+                  startTop={540}
                   endLeft={618}
                   endTop={540}></Circle>
                 <Circle
-                  startLeft={765}
-                  startTop={545}
+                  startLeft={570}
+                  startTop={580}
                   endLeft={720}
                   endTop={606}></Circle>
                 <Circle
-                  startLeft={850}
-                  startTop={524}
+                  startLeft={590}
+                  startTop={520}
                   endLeft={176}
                   endTop={575}></Circle>
               </>
@@ -116,38 +116,38 @@ export default function Page() {
             left_results={
               <>
                 <Square
-                  startLeft={340}
-                  startTop={265}
+                  startLeft={440}
+                  startTop={220}
                   endLeft={905}
                   endTop={240}></Square>
                 <Square
-                  startLeft={242}
-                  startTop={320}
+                  startLeft={450}
+                  startTop={300}
                   endLeft={240}
                   endTop={320}></Square>
                 <Square
-                  startLeft={360}
-                  startTop={352}
+                  startLeft={350}
+                  startTop={400}
                   endLeft={373}
                   endTop={274}></Square>
                 <Square
-                  startLeft={178}
-                  startTop={410}
+                  startLeft={420}
+                  startTop={430}
                   endLeft={373}
                   endTop={373}></Square>
                 <Square
-                  startLeft={291}
-                  startTop={429}
+                  startLeft={400}
+                  startTop={550}
                   endLeft={176}
                   endTop={417}></Square>
                 <Square
-                  startLeft={231}
-                  startTop={536}
+                  startLeft={460}
+                  startTop={510}
                   endLeft={363}
                   endTop={597}></Square>
                 <Square
-                  startLeft={343}
-                  startTop={514}
+                  startLeft={340}
+                  startTop={505}
                   endLeft={830}
                   endTop={496}></Square>
               </>
@@ -155,48 +155,48 @@ export default function Page() {
             right_results={
               <>
                 <Circle
-                  startLeft={776}
-                  startTop={252}
+                  startLeft={580}
+                  startTop={250}
                   endLeft={144}
                   endTop={224}></Circle>
                 <Circle
-                  startLeft={686}
-                  startTop={319}
+                  startLeft={600}
+                  startTop={320}
                   endLeft={686}
                   endTop={320}></Circle>
                 <Circle
-                  startLeft={808}
-                  startTop={341}
+                  startLeft={660}
+                  startTop={340}
                   endLeft={808}
                   endTop={340}></Circle>
                 <Circle
-                  startLeft={634}
-                  startTop={418}
+                  startLeft={580}
+                  startTop={410}
                   endLeft={562}
                   endTop={420}></Circle>
                 <Circle
-                  startLeft={757}
-                  startTop={429}
+                  startLeft={610}
+                  startTop={460}
                   endLeft={719}
                   endTop={429}></Circle>
                 <Circle
-                  startLeft={881}
-                  startTop={417}
+                  startLeft={650}
+                  startTop={410}
                   endLeft={881}
                   endTop={417}></Circle>
                 <Circle
-                  startLeft={684}
-                  startTop={518}
+                  startLeft={640}
+                  startTop={540}
                   endLeft={618}
                   endTop={540}></Circle>
                 <Circle
-                  startLeft={765}
-                  startTop={545}
+                  startLeft={570}
+                  startTop={580}
                   endLeft={763}
                   endTop={597}></Circle>
                 <Circle
-                  startLeft={850}
-                  startTop={524}
+                  startLeft={590}
+                  startTop={520}
                   endLeft={330}
                   endTop={196}></Circle>
               </>
@@ -220,33 +220,33 @@ export default function Page() {
             left_results={
               <>
                 <Square
-                  startLeft={242}
-                  startTop={320}
+                  startLeft={440}
+                  startTop={220}
                   endLeft={905}
                   endTop={240}></Square>
                 <Square
-                  startLeft={360}
-                  startTop={352}
+                  startLeft={450}
+                  startTop={300}
                   endLeft={165}
                   endTop={395}></Square>
                 <Square
-                  startLeft={178}
-                  startTop={410}
+                  startLeft={350}
+                  startTop={400}
                   endLeft={384}
                   endTop={296}></Square>
                 <Square
-                  startLeft={291}
-                  startTop={429}
+                  startLeft={420}
+                  startTop={430}
                   endLeft={755}
                   endTop={490}></Square>
                 <Square
-                  startLeft={231}
-                  startTop={536}
+                  startLeft={400}
+                  startTop={550}
                   endLeft={748}
                   endTop={597}></Square>
                 <Square
-                  startLeft={343}
-                  startTop={514}
+                  startLeft={460}
+                  startTop={510}
                   endLeft={844}
                   endTop={597}></Square>
               </>
@@ -254,48 +254,48 @@ export default function Page() {
             right_results={
               <>
                 <Circle
-                  startLeft={776}
-                  startTop={252}
+                  startLeft={580}
+                  startTop={250}
                   endLeft={144}
                   endTop={224}></Circle>
                 <Circle
-                  startLeft={686}
-                  startTop={319}
+                  startLeft={600}
+                  startTop={320}
                   endLeft={686}
                   endTop={320}></Circle>
                 <Circle
-                  startLeft={808}
-                  startTop={341}
+                  startLeft={660}
+                  startTop={340}
                   endLeft={808}
                   endTop={340}></Circle>
                 <Circle
-                  startLeft={634}
-                  startTop={418}
+                  startLeft={580}
+                  startTop={410}
                   endLeft={580}
                   endTop={475}></Circle>
                 <Circle
-                  startLeft={757}
-                  startTop={429}
+                  startLeft={610}
+                  startTop={460}
                   endLeft={881}
                   endTop={417}></Circle>
                 <Circle
-                  startLeft={881}
-                  startTop={417}
+                  startLeft={650}
+                  startTop={410}
                   endLeft={373}
                   endTop={436}></Circle>
                 <Circle
-                  startLeft={684}
-                  startTop={518}
+                  startLeft={640}
+                  startTop={540}
                   endLeft={240}
                   endTop={513}></Circle>
                 <Circle
-                  startLeft={765}
-                  startTop={545}
+                  startLeft={570}
+                  startTop={580}
                   endLeft={176}
                   endTop={575}></Circle>
                 <Circle
-                  startLeft={850}
-                  startTop={524}
+                  startLeft={590}
+                  startTop={520}
                   endLeft={325}
                   endTop={575}></Circle>
               </>
@@ -320,102 +320,97 @@ export default function Page() {
             left_results={
               <>
                 <Square
-                  startLeft={340}
-                  startTop={265}
+                  startLeft={440}
+                  startTop={220}
                   endLeft={882}
                   endTop={264}></Square>
                 <Square
-                  startLeft={280}
-                  startTop={200}
+                  startLeft={450}
+                  startTop={300}
                   endLeft={839}
                   endTop={363}></Square>
                 <Square
-                  startLeft={270}
-                  startTop={340}
+                  startLeft={350}
+                  startTop={400}
                   endLeft={930}
                   endTop={341}></Square>
                 <Square
-                  startLeft={200}
-                  startTop={260}
+                  startLeft={420}
+                  startTop={430}
                   endLeft={810}
                   endTop={471}></Square>
                 <Square
-                  startLeft={150}
-                  startTop={320}
+                  startLeft={400}
+                  startTop={550}
                   endLeft={897}
                   endTop={471}></Square>
                 <Square
-                  startLeft={360}
-                  startTop={352}
+                  startLeft={460}
+                  startTop={510}
                   endLeft={986}
                   endTop={427}></Square>
                 <Square
-                  startLeft={178}
-                  startTop={410}
+                  startLeft={340}
+                  startTop={505}
                   endLeft={810}
                   endTop={610}></Square>
                 <Square
-                  startLeft={291}
-                  startTop={429}
+                  startLeft={290}
+                  startTop={430}
                   endLeft={919}
                   endTop={566}></Square>
                 <Square
-                  startLeft={231}
-                  startTop={536}
+                  startLeft={230}
+                  startTop={530}
                   endLeft={331}
                   endTop={536}></Square>
-                <Square
-                  startLeft={343}
-                  startTop={514}
-                  endLeft={365}
-                  endTop={402}></Square>
               </>
             }
             right_results={
               <>
                 <Circle
-                  startLeft={776}
-                  startTop={252}
+                  startLeft={580}
+                  startTop={250}
                   endLeft={766}
                   endTop={378}></Circle>
                 <Circle
-                  startLeft={686}
-                  startTop={319}
+                  startLeft={600}
+                  startTop={320}
                   endLeft={83}
                   endTop={214}></Circle>
                 <Circle
-                  startLeft={808}
-                  startTop={341}
+                  startLeft={660}
+                  startTop={340}
                   endLeft={142}
                   endTop={297}></Circle>
                 <Circle
-                  startLeft={634}
-                  startTop={418}
+                  startLeft={580}
+                  startTop={410}
                   endLeft={82}
                   endTop={362}></Circle>
                 <Circle
-                  startLeft={757}
-                  startTop={429}
+                  startLeft={610}
+                  startTop={460}
                   endLeft={270}
                   endTop={356}></Circle>
                 <Circle
-                  startLeft={881}
-                  startTop={417}
+                  startLeft={650}
+                  startTop={410}
                   endLeft={61}
                   endTop={440}></Circle>
                 <Circle
-                  startLeft={684}
-                  startTop={518}
+                  startLeft={640}
+                  startTop={540}
                   endLeft={172}
                   endTop={418}></Circle>
                 <Circle
-                  startLeft={765}
-                  startTop={545}
+                  startLeft={570}
+                  startTop={580}
                   endLeft={195}
                   endTop={534}></Circle>
                 <Circle
-                  startLeft={850}
-                  startTop={524}
+                  startLeft={590}
+                  startTop={520}
                   endLeft={275}
                   endTop={462}></Circle>
               </>
