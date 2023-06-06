@@ -2,12 +2,17 @@ import { FC, ReactNode } from 'react';
 import { motion } from 'framer-motion';
 
 type TProps = {
-  children: ReactNode;
+  children?: ReactNode;
   classNames?: string;
-  mode: 'up' | 'down' | 'left' | 'right';
+  mode?: 'up' | 'down' | 'left' | 'right';
   delay: number;
   name: string;
   onClick?: () => undefined;
+  startLeft?: number;
+  startTop?: number;
+  endLeft?: number;
+  endTop?: number;
+  duration?: number;
 };
 
 const variants = {
@@ -40,7 +45,18 @@ const MotionDiv: FC<TProps> = ({
   classNames = '',
   name,
   onClick,
+  startLeft,
+  startTop,
+  endLeft,
+  endTop,
+  duration = 0.8,
 }) => {
+  const varaiant = {
+    hidden: { opacity: 1, x: startLeft, y: startTop },
+    enter: { opacity: 1, x: endLeft, y: endTop },
+    exit: { opacity: 0, x: 10, y: 0 },
+  };
+
   return (
     <motion.div
       className={classNames}
@@ -48,8 +64,8 @@ const MotionDiv: FC<TProps> = ({
       animate="enter"
       exit="exit"
       key={name}
-      transition={{ duration: 0.8, type: 'easeInOut', delay }}
-      variants={variants[mode]}
+      transition={{ duration: duration, type: 'easeInOut', delay }}
+      variants={startLeft ? varaiant : variants[mode]}
       onClick={() => onClick && onClick()}>
       {children}
     </motion.div>
