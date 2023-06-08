@@ -14,9 +14,10 @@ export default function Page() {
         Thank you for visiting <br /> AI Propensity Model Simulator
       </PageHeader>
 
-      <div className="mt-20">
-        <p className="text-4xl text-gblue-normal">
-          To learn more about AutoML and solutions available,
+      <div className="mt-20 text-center">
+        <p className="text-4xl leading-tight text-gblue-normal">
+          To learn more about AutoML and solutions available, <br /> scan the QR
+          codes below:
         </p>
       </div>
 

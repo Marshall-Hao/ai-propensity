@@ -20,11 +20,18 @@ export default function Page() {
         </h1>
       </MotionDiv>
 
-      <MotionDiv
-        mode="up"
-        delay={0.4}
-        classNames="h-[608px] w-screen bg-white p-40 mb-">
-        <SvgIcon href="laptop"></SvgIcon>
+      <MotionDiv mode="up" delay={0.4} name={''}>
+        {/* classNames="h-[608px] w-screen bg-white p-40 mb-"> */}
+        {/* <SvgIcon href="laptop"></SvgIcon> */}
+        <iframe
+          className="h-[608px] w-screen"
+          src="https://www.youtube.com/embed/TZzp-od42lc?autoplay=1&controls=0"
+          allow="accelerometer; autoplay;"></iframe>
+        {/* <iframe
+          src="https://drive.google.com/file/d/13VV-slQC91AaufxiFT9zuVLz6cgg22Rb/preview"
+          className="h-[608px] w-screen"
+          allow="autoplay"
+          id="video"></iframe> */}
       </MotionDiv>
 
       <MotionDiv mode="down" delay={0.5} classNames="justify-self-end mt-auto">

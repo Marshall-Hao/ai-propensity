@@ -7,7 +7,7 @@ type TProps = {
 const Button: FC<TProps> = ({ children }) => {
   return (
     <div className="flex h-[89px] w-[516px] items-center justify-center  rounded-full bg-gblue-normal">
-      <p className="animate-pulse text-4xl">{children}</p>
+      <p className="animate-pulse text-4xl text-white">{children}</p>
     </div>
   );
 };
