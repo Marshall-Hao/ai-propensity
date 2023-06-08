@@ -100,7 +100,7 @@ export default function Page() {
           <WhiteCard
             percentage={10}
             p={
-              'To increase the accuracy of of your results, try selecting more datasets and leverage advanced ML to train your model'
+              'To increase the accuracy of your results, try selecting more datasets and leverage advanced ML to train your model'
             }
             button_text={'Try Again'}
             button_link={'/pages/query1'}
@@ -304,7 +304,7 @@ export default function Page() {
           <WhiteCard
             percentage={45}
             p={
-              'By using Advance ML, Google will find the best types of models to generate the best results for you'
+              'By using advanced ML, Google will find the best type of models to generate the best results for you'
             }
             button_text={'Try Again'}
             button_link={'/pages/query1'}
@@ -415,38 +415,11 @@ export default function Page() {
                   endTop={462}></Circle>
               </>
             }></ResultsHeader>
-          {/* Final Positions */}
-          {/* <ResultsHeader
-            left_results={
-              <>
-                <Circle left={'left-[83px]'} top={214px]'}></Circle>
-                <Circle left={'left-[173px]'} top={'top-[207px]'}></Circle>
-                <Circle left={'left-[142px]'} top={'top-[297px]'}></Circle>
-                <Circle left={'left-[82px]'} top={'top-[362px]'}></Circle>
-                <Circle left={'left-[270px]'} top={'top-[356px]'}></Circle>
-                <Circle left={'left-[61px]'} top={'top-[440px]'}></Circle>
-                <Circle left={'left-[172px]'} top={'top-[418px]'}></Circle>
-                <Circle left={'left-[195px]'} top={'top-[534px]'}></Circle>
-                <Square left={'left-[275px]'} top={'top-[462px]'}></Square>
-              </>
-            }
-            right_results={
-              <>
-                <Circle left={'left-[766px]'} top={'top-[378px]'}></Circle>
-                <Square left={'left-[882px]'} top={'top-[264px]'}></Square>
-                <Square left={'left-[839px]'} top={'top-[363px]'}></Square>
-                <Square left={'left-[930px]'} top={'top-[341px]'}></Square>
-                <Square left={'left-[810px]'} top={'top-[471px]'}></Square>
-                <Square left={'left-[897px]'} top={'top-[471px]'}></Square>
-                <Square left={'left-[986px]'} top={'top-[427px]'}></Square>
-                <Square left={'left-[810px]'} top={'top-[610px]'}></Square>
-                <Square left={'left-[919px]'} top={'top-[566px]'}></Square>
-              </>
-            }></ResultsHeader> */}
+
           <WhiteCard
             percentage={95}
             p={
-              'With the power of Google AI and our full suite of privacy-safe datasets, you can accurately predict customers who are most likely to convert for your business'
+              'With the power of Google AI and our full suite of privacy-safe datasets, you can accurately predict which customers are most likely to convert'
             }
             button_text={'Next'}
             button_link={'/pages/last'}></WhiteCard>

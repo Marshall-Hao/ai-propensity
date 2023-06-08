@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <MotionMain>
       <PageHeader svg={<SvgIcon href="mascara" fill="#4285F4"></SvgIcon>}>
-        Select as many datasets you would <br /> like to train your model with
+        Select the datasets you would <br /> like to train your model with
       </PageHeader>
 
       <div className="mt-[90px]">
@@ -55,7 +55,7 @@ export default function Page() {
             delay={0.2}
             floatAnimtion="animate-float-delay"
             // eslint-disable-next-line react/no-children-prop
-            children={'eCommerce Action'}
+            children={'E-commerce Action'}
             svg="shopping-bag"
             col={'col-start-2'}></Dataset>
 

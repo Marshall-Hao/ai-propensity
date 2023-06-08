@@ -14,7 +14,7 @@ export default function Page() {
       </MotionDiv>
 
       <MotionDiv mode="up" delay={0.3} classNames="mb-24 mt-[73px] text-center">
-        <h3 className="text-[40px] text-gblue-normal">Introduction to</h3>
+        <h3 className="text-[40px] text-gblue-normal">Introducing the</h3>
         <h1 className="mx-auto mt-2	max-w-xl text-[68px] leading-tight text-gblue-normal">
           AI Propensity Model Simulator
         </h1>
@@ -25,13 +25,9 @@ export default function Page() {
         {/* <SvgIcon href="laptop"></SvgIcon> */}
         <iframe
           className="h-[608px] w-screen"
-          src="https://www.youtube.com/embed/TZzp-od42lc?autoplay=1&controls=0"
+          src="https://www.youtube.com/embed/DKk9ZQ6znJ8?autoplay=1&controls=0&rel=0"
+          title="Google STB1 4K 0605 AI Propensity"
           allow="accelerometer; autoplay;"></iframe>
-        {/* <iframe
-          src="https://drive.google.com/file/d/13VV-slQC91AaufxiFT9zuVLz6cgg22Rb/preview"
-          className="h-[608px] w-screen"
-          allow="autoplay"
-          id="video"></iframe> */}
       </MotionDiv>
 
       <MotionDiv mode="down" delay={0.5} classNames="justify-self-end mt-auto">
