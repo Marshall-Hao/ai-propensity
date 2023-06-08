@@ -20,7 +20,7 @@ export default function Page() {
         </h1>
       </MotionDiv>
 
-      <MotionDiv mode="up" delay={0.4} name={''}>
+      <MotionDiv mode="up" delay={0.4}>
         {/* classNames="h-[608px] w-screen bg-white p-40 mb-"> */}
         {/* <SvgIcon href="laptop"></SvgIcon> */}
         <iframe
