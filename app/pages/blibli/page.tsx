@@ -32,7 +32,7 @@ export default function Page() {
         </InfoCard>
 
         <InfoCard svg={'blibli_3'} mode={'left'} delay={0.6}>
-          Drove +3--% ROAS compared to control campaign
+          Drove +300% ROAS compared to control campaign
         </InfoCard>
       </div>
 
