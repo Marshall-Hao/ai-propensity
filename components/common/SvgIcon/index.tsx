@@ -12,7 +12,14 @@ type SvgName =
   | 'time_spent'
   | 'right_arrow'
   | 'shopping-bag'
-  | 'cross';
+  | 'cross'
+  | 'phone'
+  | 'dtac_1'
+  | 'dtac_2'
+  | 'dtac_3'
+  | 'blibli_1'
+  | 'blibli_2'
+  | 'blibli_3';
 
 type TProps = {
   href: SvgName;

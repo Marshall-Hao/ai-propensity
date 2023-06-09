@@ -34,11 +34,11 @@ export default function Home() {
         {show && (
           <MotionDiv mode="up" delay={icons.length * 0.1}>
             <section className="mb-64 mt-24 w-[700px] text-center">
-              <h3 className="text-5xl	">Welcome to</h3>
-              <h1 className="mx-auto mb-12 mt-5 text-8xl leading-tight">
+              <h3 className="text-5xl text-white">Welcome to</h3>
+              <h1 className="mx-auto mb-12 mt-5 text-8xl leading-tight text-white">
                 AI Propensity Model Simulator
               </h1>
-              <p className="max-w-2xl text-2xl">
+              <p className="max-w-2xl text-2xl text-white">
                 AI propensity models can help you discover new customer segments
                 for your business.
                 <br /> Learn how they work in this simplified walkthrough
@@ -52,7 +52,7 @@ export default function Home() {
         {show && (
           <MotionDiv mode="up" delay={icons.length * 0.1}>
             <section className="mb-9 w-[700px] text-center">
-              <p className="max-w-3xl text-2xl">
+              <p className="max-w-3xl text-2xl text-white">
                 Not an official Google product. <br /> For demonstration purpose
                 only
               </p>

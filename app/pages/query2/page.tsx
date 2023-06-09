@@ -11,7 +11,9 @@ export default function Page() {
 
   return (
     <MotionMain>
-      <PageHeader svg={<SvgIcon href="mirror" fill="#4285F4"></SvgIcon>}>
+      <PageHeader
+        svg={<SvgIcon href="mirror" fill="#4285F4"></SvgIcon>}
+        text={'text-[55px]'}>
         How would you like to <br /> train your model?
       </PageHeader>
 
