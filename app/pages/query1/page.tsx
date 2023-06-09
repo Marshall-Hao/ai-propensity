@@ -12,7 +12,9 @@ export default function Page() {
 
   return (
     <MotionMain>
-      <PageHeader svg={<SvgIcon href="mascara" fill="#4285F4"></SvgIcon>}>
+      <PageHeader
+        svg={<SvgIcon href="mascara" fill="#4285F4"></SvgIcon>}
+        text={'text-[55px]'}>
         Select the datasets you would <br /> like to train your model with
       </PageHeader>
 

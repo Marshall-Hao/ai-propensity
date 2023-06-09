@@ -10,7 +10,9 @@ import Compass from '/public/Images/Compass.png';
 export default function Page() {
   return (
     <MotionMain>
-      <PageHeader svg={<SvgIcon href="lipstick" fill="#4285F4"></SvgIcon>}>
+      <PageHeader
+        svg={<SvgIcon href="lipstick" fill="#4285F4"></SvgIcon>}
+        text={'text-[55px]'}>
         Thank you for visiting <br /> AI Propensity Model Simulator
       </PageHeader>
 

@@ -31,7 +31,7 @@ export default function Page() {
       </MotionDiv>
 
       <MotionDiv mode="down" delay={0.5} classNames="justify-self-end mt-auto">
-        <Link href="/pages/query1">
+        <Link href="/pages/dtac">
           <Button>Skip</Button>
         </Link>
       </MotionDiv>
