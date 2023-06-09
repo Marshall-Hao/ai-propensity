@@ -4,9 +4,11 @@ import Link from 'next/link';
 import MotionMain from '@/components/common/MotionMain';
 import MotionDiv from '@/components/common/MotionDiv';
 import useAIStore from '@/store';
+import { useRouter } from 'next/navigation';
 
 export default function Page() {
   const num = useAIStore((state) => state.dataSelect);
+  const { push } = useRouter();
 
   return (
     <MotionMain>
@@ -70,9 +72,9 @@ export default function Page() {
         </div>
       </div>
       <MotionDiv mode="up" delay={0.4} classNames="justify-self-end mt-auto">
-        <Link href="/pages/query2">
-          <Button>Next</Button>
-        </Link>
+        <Button disabled={num === 0} onClick={() => push('/pages/query2')}>
+          {num === 0 ? 'Please Select' : 'Next'}
+        </Button>
       </MotionDiv>
     </MotionMain>
   );

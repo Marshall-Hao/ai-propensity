@@ -4,11 +4,13 @@ import Link from 'next/link';
 import MotionMain from '@/components/common/MotionMain';
 import MotionDiv from '@/components/common/MotionDiv';
 import useAIStore from '@/store';
+import { useRouter } from 'next/navigation';
 
 export default function Page() {
   const setBasic = useAIStore((state) => state.setBasic);
   const setAdvanced = useAIStore((state) => state.setAdvanced);
-
+  const ml = useAIStore((state) => state.ml);
+  const { push } = useRouter();
   return (
     <MotionMain>
       <PageHeader svg={<SvgIcon href="mirror" fill="#4285F4"></SvgIcon>}>
@@ -33,9 +35,9 @@ export default function Page() {
       </div>
 
       <MotionDiv mode="up" delay={0.4} classNames="justify-self-end mt-auto">
-        <Link href="/pages/results">
-          <Button>Next</Button>
-        </Link>
+        <Button disabled={ml === ''} onClick={() => push('/pages/results')}>
+          {ml === '' ? 'Please Select' : 'Next'}
+        </Button>
       </MotionDiv>
     </MotionMain>
   );
