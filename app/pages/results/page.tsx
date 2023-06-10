@@ -304,7 +304,7 @@ export default function Page() {
           <WhiteCard
             percentage={45}
             p={
-              'By using advanced ML, Google will find the best type of models to generate the best results for you'
+              'By using advanced ML, Google will find the best type of models to generate the best result for you'
             }
             button_text={'Try Again'}
             button_link={'/pages/query1'}
@@ -419,7 +419,7 @@ export default function Page() {
           <WhiteCard
             percentage={95}
             p={
-              'With the power of Google AI and our full suite of privacy-safe datasets, you can accurately predict which customers are most likely to convert'
+              'With the power of Google AI and our full suite of privacy-safe solutions, you can accurately predict which customers are most likely to convert'
             }
             button_text={'Next'}
             button_link={'/pages/last'}></WhiteCard>

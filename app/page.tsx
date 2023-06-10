@@ -41,7 +41,7 @@ export default function Home() {
               <p className="max-w-2xl text-2xl text-white">
                 AI propensity models can help you discover new customer segments
                 for your business.
-                <br /> Learn how they work in this simplified walkthrough
+                <br /> Learn how they work in this simplified walkthrough.
               </p>
             </section>
           </MotionDiv>
@@ -54,7 +54,7 @@ export default function Home() {
             <section className="mb-9 w-[700px] text-center">
               <p className="max-w-3xl text-2xl text-white">
                 Not an official Google product. <br /> For demonstration purpose
-                only
+                only.
               </p>
             </section>
           </MotionDiv>

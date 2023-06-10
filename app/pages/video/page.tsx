@@ -25,9 +25,8 @@ export default function Page() {
         {/* <SvgIcon href="laptop"></SvgIcon> */}
         <iframe
           className="h-[608px] w-screen"
-          src="https://www.youtube.com/embed/DKk9ZQ6znJ8?autoplay=1&controls=0&rel=0"
-          title="Google STB1 4K 0605 AI Propensity"
-          allow="accelerometer; autoplay;"></iframe>
+          src="https://player.vimeo.com/video/834796910?h=10d719e052"
+          allow="autoplay"></iframe>
       </MotionDiv>
 
       <MotionDiv mode="down" delay={0.5} classNames="justify-self-end mt-auto">
