@@ -18,7 +18,7 @@ export default function Page() {
 
       <div className="mb-28 mt-5 text-center">
         <p className="text-[40px] leading-tight text-gblue-normal">
-          E-commerce retailer in Indonesia
+          <em className="font-bold">E-commerce retailer in Indonesia</em>
         </p>
       </div>
 
