@@ -25,7 +25,7 @@ export default function Page() {
         {/* <SvgIcon href="laptop"></SvgIcon> */}
         <iframe
           className="h-[608px] w-screen"
-          src="https://player.vimeo.com/video/834796910?h=10d719e052&autoplay=1&title=0&byline=0&portrait=0"
+          src="https://player.vimeo.com/video/834796910?h=10d719e052&autoplay=1&loop=1&title=0&byline=0&portrait=0"
           allow="autoplay"></iframe>
       </MotionDiv>
 
