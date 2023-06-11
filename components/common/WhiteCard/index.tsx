@@ -56,7 +56,7 @@ const WhiteCard: FC<TProps> = ({
         <div>
           <div className="mx-auto w-[740px]">
             <p className="mb-12 text-center text-4xl leading-tight text-gblue-dark">
-              Your propensity model had an accuracy of {percentage}%
+              Your propensity model had an accuracy of <span className="font-bold">{percentage}%</span>
             </p>
             <p className="mb-[149px] text-center text-4xl leading-tight text-gblue-dark">
               {p}

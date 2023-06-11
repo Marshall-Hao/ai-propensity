@@ -46,7 +46,7 @@ const Dataset: FC<TProps> = ({
             <div
               className={`${classChoices} ${
                 active
-                  ? 'border-gblue-dark bg-gblue-dark'
+                  ? 'border-gblue-normal bg-gblue-normal'
                   : 'border-gblue-normal'
               }`}
               onClick={handleClick}>

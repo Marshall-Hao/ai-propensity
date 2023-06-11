@@ -100,7 +100,7 @@ export default function Page() {
           <WhiteCard
             percentage={10}
             p={
-              'To increase the accuracy of your results, try selecting more datasets and leverage advanced ML to train your model'
+              'To increase the accuracy of your results, try selecting more datasets and leverage advanced ML to train your model.'
             }
             button_text={'Try Again'}
             button_link={'/pages/query1'}
@@ -204,7 +204,7 @@ export default function Page() {
           <WhiteCard
             percentage={25}
             p={
-              'Advance ML requires more data to be accurate. Try training your model with more datasets'
+              'Advance ML requires more data to be accurate. Try training your model with more datasets.'
             }
             button_text={'Try Again'}
             button_link={'/pages/query1'}
@@ -304,7 +304,7 @@ export default function Page() {
           <WhiteCard
             percentage={45}
             p={
-              'By using advanced ML, Google will find the best type of models to generate the best result for you'
+              'By using advanced ML, Google will find the best type of models to generate the best result for you.'
             }
             button_text={'Try Again'}
             button_link={'/pages/query1'}

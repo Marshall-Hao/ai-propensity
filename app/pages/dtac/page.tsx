@@ -6,6 +6,7 @@ import MotionDiv from '@/components/common/MotionDiv';
 import InfoCard from '@/components/common/InfoCard';
 import Image from 'next/image';
 import dtac_2 from '/public/Images/dtac_2.png';
+import dtac_3 from '/public/Images/dtac_3.png';
 
 export default function Page() {
   return (
@@ -18,7 +19,7 @@ export default function Page() {
 
       <div className="mb-28 mt-5 text-center">
         <p className="text-[40px] leading-tight text-gblue-normal">
-          <em>Leading telco in Thailand</em>
+          <em className="font-bold">Leading telco in Thailand</em>
         </p>
       </div>
 
@@ -42,9 +43,22 @@ export default function Page() {
             </p>
           </div>
         </MotionDiv>
+{/*
         <InfoCard svg={'dtac_3'} mode={'left'} delay={0.6}>
           Drove +41% conversions at -30% cost compared to control campaign
-        </InfoCard>
+        </InfoCard> */}
+
+        <MotionDiv mode={'left'} delay={0.6}>
+          <div className="w-[500px] text-center">
+            <div className="flex justify-center">
+              <Image src={dtac_3} alt={''} width={135} height={137}></Image>
+            </div>
+            <p className="mt-5 text-[28px] leading-normal text-gblue-normal">
+            Drove +41% conversions at -30% cost compared to control campaign
+            </p>
+          </div>
+        </MotionDiv>
+
       </div>
 
       <MotionDiv mode="up" delay={0.4} classNames="justify-self-end mt-auto">
