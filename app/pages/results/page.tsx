@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div>
       {/* 10% */}
-      {data < 3 && ml === 'basic' && (
+      {data <= 3 && ml === 'basic' && (
         <>
           {/* Initial Positions */}
           <ResultsHeader
@@ -109,7 +109,7 @@ export default function Page() {
       )}
 
       {/* 25% */}
-      {data < 3 && ml === 'advanced' && (
+      {data <= 3 && ml === 'advanced' && (
         <>
           {/* Initial Positions */}
           <ResultsHeader
@@ -213,7 +213,7 @@ export default function Page() {
       )}
 
       {/* 45 */}
-      {data >= 3 && ml === 'basic' && (
+      {data > 3 && ml === 'basic' && (
         <>
           {/* Initial Positions */}
           <ResultsHeader
@@ -313,7 +313,7 @@ export default function Page() {
       )}
 
       {/* 95 */}
-      {data >= 3 && ml === 'advanced' && (
+      {data > 3 && ml === 'advanced' && (
         <>
           {/* Initial Positions */}
           <ResultsHeader
@@ -419,7 +419,7 @@ export default function Page() {
           <WhiteCard
             percentage={95}
             p={
-              'With the power of Google AI and our full suite of privacy-safe solutions, you can accurately predict which customers are most likely to convert'
+              'With the power of Google AI and our full suite of privacy-safe solutions, you can accurately predict which customers are most likely to convert.'
             }
             button_text={'Next'}
             button_link={'/pages/last'}></WhiteCard>

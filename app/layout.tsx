@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Script src="//at.alicdn.com/t/c/font_4086257_eu9vpmxm9r5.js"></Script>
+      <Script src="//at.alicdn.com/t/c/font_4086257_clp93bs90dt.js"></Script>
       <body
         className={`${googleSans.className} min-h-screen overflow-hidden bg-blue-300`}>
         <Layout>{children}</Layout>

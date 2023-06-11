@@ -4,6 +4,8 @@ import Link from 'next/link';
 import MotionMain from '@/components/common/MotionMain';
 import MotionDiv from '@/components/common/MotionDiv';
 import InfoCard from '@/components/common/InfoCard';
+import Image from 'next/image';
+import dtac_2 from '/public/Images/dtac_2.png';
 
 export default function Page() {
   return (
@@ -16,7 +18,7 @@ export default function Page() {
 
       <div className="mb-28 mt-5 text-center">
         <p className="text-[40px] leading-tight text-gblue-normal">
-          Leading telco in Thailand
+          <em>Leading telco in Thailand</em>
         </p>
       </div>
 
@@ -26,10 +28,20 @@ export default function Page() {
           customers from website visitors
         </InfoCard>
 
-        <InfoCard svg={'dtac_2'} mode={'right'} delay={0.6}>
+        {/* <InfoCard svg={'dtac_2'} mode={'right'} delay={0.6}>
           Remarketed to top 30% of visitors who were most likely to purchase
-        </InfoCard>
+        </InfoCard> */}
 
+        <MotionDiv mode={'left'} delay={0.6}>
+          <div className="w-[500px] text-center">
+            <div className="flex justify-center">
+              <Image src={dtac_2} alt={''} width={233} height={168}></Image>
+            </div>
+            <p className="mt-5 text-[28px] leading-normal text-gblue-normal">
+              Drove +300% ROAS compared to control campaign
+            </p>
+          </div>
+        </MotionDiv>
         <InfoCard svg={'dtac_3'} mode={'left'} delay={0.6}>
           Drove +41% conversions at -30% cost compared to control campaign
         </InfoCard>

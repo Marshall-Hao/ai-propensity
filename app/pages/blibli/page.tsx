@@ -4,6 +4,8 @@ import Link from 'next/link';
 import MotionMain from '@/components/common/MotionMain';
 import MotionDiv from '@/components/common/MotionDiv';
 import InfoCard from '@/components/common/InfoCard';
+import Image from 'next/image';
+import blibli_3 from '/public/Images/blibli_3.png';
 
 export default function Page() {
   return (
@@ -31,9 +33,20 @@ export default function Page() {
           purchase in the electronics category
         </InfoCard>
 
-        <InfoCard svg={'blibli_3'} mode={'left'} delay={0.6}>
+        {/* <InfoCard svg={'blibli_3'} mode={'left'} delay={0.6}>
           Drove +300% ROAS compared to control campaign
-        </InfoCard>
+        </InfoCard> */}
+
+        <MotionDiv mode={'left'} delay={0.6}>
+          <div className="w-[500px] text-center">
+            <div className="flex justify-center">
+              <Image src={blibli_3} alt={''} width={233} height={168}></Image>
+            </div>
+            <p className="mt-5 text-[28px] leading-normal text-gblue-normal">
+              Drove +300% ROAS compared to control campaign
+            </p>
+          </div>
+        </MotionDiv>
       </div>
 
       <MotionDiv mode="up" delay={0.4} classNames="justify-self-end mt-auto">
